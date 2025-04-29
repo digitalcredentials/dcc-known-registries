@@ -1,22 +1,38 @@
 [
     {
+        "name": "DCC Member Registry",
         "type": "oidf",
-        "fetchEndpoint": "https://registry.dcconsortium.org/fetch?sub=",
-        "name": "DCC Member Registry"
+        "governanceUrl": "https://registry.docconsortium.org/governance",
+        "trustAnchorEC": "https://registry.dcconsortium.org/.well-known/openid-federation
     },
     {
-        "type": "dcc-legacy",
+        "name": "Test DCC Member Registry",
+        "type": "oidf",
+        "governanceUrl": "https://test.registry.docconsortium.org/governance",
+        "trustAnchorEC": "https://test.registry.dcconsortium.org/.well-known/openid-federation
+    },
+    {
         "name": "DCC Sandbox Registry",
+        "type": "dcc-legacy",
+        "governanceUrl": "https://digitalcredentials.github.io/sandbox-registry/governance.md",
         "url": "https://digitalcredentials.github.io/sandbox-registry/registry.json"
     },
     {
-        "type": "dcc-legacy",
         "name": "DCC Community Registry",
+        "type": "dcc-legacy",
+        "governanceUrl": "https://digitalcredentials.github.io/community-registry/governance.md",
         "url": "https://digitalcredentials.github.io/community-registry/registry.json"
     },
     {
+        "name": "DCC Member Registry",
         "type": "dcc-legacy",
+        "governanceUrl": "https://digitalcredentials.github.io/dcc-registry/governance.md",
+        "url": "https://digitalcredentials.github.io/dcc-registry/registry.json"
+    },
+    {
         "name": "MSP Registry",
+        "type": "dcc-legacy",
+        "governanceUrl": "https://?????????",
         "url": "https://sandbox-issuer.myskillspocket.com/registry.json"
     }
 ]
