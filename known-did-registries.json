@@ -18,6 +18,12 @@
         "trustAnchorEC": "https://test.registry.dcconsortium.org/.well-known/openid-federation"
     },
     {
+        "name": "OpenSALT Test Issuer Registry",
+        "type": "oidf",
+        "governanceUrl": "https://staging.opensalt.net/issuer-registry/governance",
+        "trustAnchorEC": "https://staging.opensalt.net/issuer-registry/.well-known/openid-federation"
+    },
+    {
         "name": "DCC Sandbox Registry",
         "type": "dcc-legacy",
         "governanceUrl": "https://digitalcredentials.github.io/sandbox-registry",
