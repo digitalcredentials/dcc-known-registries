@@ -1,9 +1,9 @@
 [
     {
-        "name": "Credential Engine Test Issuer Registry",
+        "name": "Credential Engine Issuer Registry",
         "type": "oidf",
         "governanceUrl": "https://credentialengine.org/",
-        "trustAnchorEC": "https://test.issuerregistry.credentialengine.org/oidfed/.well-known/openid-federation"
+        "trustAnchorEC": "https://issuerregistry.credentialengine.org/oidfed/.well-known/openid-federation"
     },
     {
         "name": "DCC Member Registry",
